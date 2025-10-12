@@ -1,0 +1,43 @@
+/* Button */
+
+.btn {
+  padding: var(--200) var(--400);
+  border-radius: var(--350);
+  border: none;
+  color: var(--white);
+  text-align: center;
+}
+
+.btn--mobile {
+  padding: var(--150) var(--300);
+}
+
+/* Black button */
+.btn--black {
+  background-color: var(--blue-900);
+}
+
+/* Light Black button */
+.btn--black-light {
+  background-color: var(--blue-600);
+}
+
+/* Orange button */
+.btn--orange {
+  background: var(--gradient-preset-1);
+}
+
+/* Light Orange button */
+.btn--orange-light {
+  background: var(--gradient-preset-1-light);
+}
+
+/* Purple button */
+.btn--purple {
+  background: var(--gradient-preset-2);
+}
+
+/* Light Purple button */
+.btn--purple-light {
+  background: var(--gradient-preset-2-light);
+}
