@@ -1,0 +1,73 @@
+@font-face {
+  font-family: "Plus Jakarta Sans";
+  src: url(../../assets/fonts/Plus_Jakarta_Sans/static/PlusJakartaSans-ExtraBold.ttf);
+  font-weight: 800;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Plus Jakarta Sans";
+  src: url(../../assets/fonts/Plus_Jakarta_Sans/static/PlusJakartaSans-Medium.ttf);
+  font-weight: 500;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Plus Jakarta Sans";
+  src: url(../../assets/fonts/Plus_Jakarta_Sans/static/PlusJakartaSans-Bold.ttf);
+  font-weight: 700;
+  font-display: swap;
+}
+
+.typography {
+  font-family: var(--ff-base);
+}
+
+.preset-1 {
+  font-size: var(--fs-desktop-preset-1);
+  font-weight: var(--fw-extra-bold);
+  line-height: var(--lh-tight);
+  letter-spacing: var(--ls-normal);
+}
+
+.preset-2 {
+  font-size: var(--fs-desktop-preset-2);
+  font-weight: var(--fw-extra-bold);
+  line-height: var(--lh-tight);
+  letter-spacing: var(--ls-normal);
+}
+
+.preset-3 {
+  font-size: var(--fs-desktop-preset-3);
+  font-weight: var(--fw-extra-bold);
+  line-height: var(--lh-tight);
+  letter-spacing: var(--ls-normal);
+}
+
+.preset-4 {
+  font-size: var(--fs-desktop-preset-4);
+  font-weight: var(--fw-extra-bold);
+  line-height: var(--lh-tight);
+  letter-spacing: var(--ls-normal);
+}
+
+.preset-5 {
+  font-size: var(--fs-desktop-preset-5);
+  font-weight: var(--fw-medium);
+  line-height: var(--lh-loose);
+  letter-spacing: var(--ls-normal);
+}
+
+.preset-6 {
+  font-size: var(--fs-desktop-preset-6);
+  font-weight: var(--fw-bold);
+  line-height: var(--lh-loose);
+  letter-spacing: var(--ls-normal);
+}
+
+.preset-7 {
+  font-size: var(--fs-desktop-preset-7);
+  font-weight: var(--fw-bold);
+  line-height: var(--lh-loose);
+  letter-spacing: var(--ls-normal);
+}

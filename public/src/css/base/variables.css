@@ -1,0 +1,82 @@
+:root {
+  /* COLORS */
+
+  /* Blue */
+  --blue-900: #13183F;
+  --blue-600: #666CA3;
+  
+  /* Pink */
+  --pink-600: #F74780;
+  --pink-300: #FFA7C3;
+
+  /* Grey */
+  --grey: #83869A;
+
+  /* White */
+  --white: #FFFFFF;
+
+  /* GRADIENTS */
+
+  /* Gradient pink */
+  --gradient-preset-1: linear-gradient(180deg,rgba(255, 111, 72, 1) 0%, rgba(240, 42, 166, 1) 100%);
+
+  --gradient-preset-1-light: linear-gradient(180deg,rgba(255, 111, 72, 0.5) 0%, rgba(240, 42, 166, 0.5) 100%);
+
+  /* Gradient purple */
+  --gradient-preset-2: linear-gradient(180deg,rgba(72, 81, 255, 1) 0%, rgba(240, 42, 166, 1) 100%);
+
+  --gradient-preset-2-light: linear-gradient(180deg,rgba(72, 81, 255, 0.5) 0%, rgba(240, 42, 166, 0.5) 100%);
+
+  /* SPACING */
+
+  --1800: 144px;
+  --1600: 128px;
+  --1000: 80px;
+  --800: 64px;
+  --700: 56px;
+  --600: 48px;
+  --550: 44px;
+  --500: 40px;
+  --400: 32px;
+  --350: 28px;
+  --300: 24px;
+  --250: 20px;
+  --200: 16px;
+  --150: 12px;
+  --100: 8px;
+
+  /* TYPOGRAPHY */
+
+  /* Font family */
+  --ff-base: "Plus Jakarta Sans", sans-serif;
+
+  /* Font sizes */
+
+  /* Desktop */
+  --fs-desktop-preset-1: 56px;
+  --fs-desktop-preset-2: 40px;
+  --fs-desktop-preset-3: 32px;
+  --fs-desktop-preset-4: 24px;
+  --fs-desktop-preset-5: 18px;
+  --fs-desktop-preset-6: 16px;
+  --fs-desktop-preset-7: 18px;
+
+  /* Mobile */
+  --fs-mobile-preset-1: 40px;
+  --fs-mobile-preset-2: 32px;
+  --fs-mobile-preset-3: 24px;
+  --fs-mobile-preset-4: 20px;
+  --fs-mobile-preset-6: 14px;
+  
+  /* Font weights */
+  --fw-extra-bold: 800;
+  --fw-medium: 500;
+  --fw-bold: 700;
+
+  /* Line heights */
+  --lh-tight: 120%;
+  --lh-loose: 150%;
+
+  /* Letter spacing */
+  --ls-normal: 0px;
+}
