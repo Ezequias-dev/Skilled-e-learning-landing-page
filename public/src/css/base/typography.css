@@ -19,11 +19,8 @@
   font-display: swap;
 }
 
-.typography {
-  font-family: var(--ff-base);
-}
-
 .preset-1 {
+  font-family: var(--ff-base);
   font-size: var(--fs-desktop-preset-1);
   font-weight: var(--fw-extra-bold);
   line-height: var(--lh-tight);
@@ -31,6 +28,7 @@
 }
 
 .preset-2 {
+  font-family: var(--ff-base);
   font-size: var(--fs-desktop-preset-2);
   font-weight: var(--fw-extra-bold);
   line-height: var(--lh-tight);
@@ -38,6 +36,7 @@
 }
 
 .preset-3 {
+  font-family: var(--ff-base);
   font-size: var(--fs-desktop-preset-3);
   font-weight: var(--fw-extra-bold);
   line-height: var(--lh-tight);
@@ -45,6 +44,7 @@
 }
 
 .preset-4 {
+  font-family: var(--ff-base);
   font-size: var(--fs-desktop-preset-4);
   font-weight: var(--fw-extra-bold);
   line-height: var(--lh-tight);
@@ -52,6 +52,7 @@
 }
 
 .preset-5 {
+  font-family: var(--ff-base);
   font-size: var(--fs-desktop-preset-5);
   font-weight: var(--fw-medium);
   line-height: var(--lh-loose);
@@ -59,6 +60,7 @@
 }
 
 .preset-6 {
+  font-family: var(--ff-base);
   font-size: var(--fs-desktop-preset-6);
   font-weight: var(--fw-bold);
   line-height: var(--lh-loose);
@@ -66,6 +68,7 @@
 }
 
 .preset-7 {
+  font-family: var(--ff-base);
   font-size: var(--fs-desktop-preset-7);
   font-weight: var(--fw-bold);
   line-height: var(--lh-loose);
