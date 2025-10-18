@@ -1,13 +1,15 @@
 /* Button */
-
 .btn {
   padding: var(--200) var(--400);
   border-radius: var(--350);
   border: none;
   color: var(--white);
   text-align: center;
+  transition: opacity 300ms ease-out;
+  cursor: pointer;
 }
 
+/* Mobile button */
 .btn--mobile {
   padding: var(--150) var(--300);
 }
@@ -17,27 +19,40 @@
   background-color: var(--blue-900);
 }
 
-/* Light Black button */
-.btn--black-light {
+.btn--black:hover{
   background-color: var(--blue-600);
 }
 
 /* Orange button */
 .btn--orange {
   background: var(--gradient-preset-1);
+  opacity: 1;
 }
 
-/* Light Orange button */
-.btn--orange-light {
-  background: var(--gradient-preset-1-light);
+.btn--orange:hover {
+  background: var(--gradient-preset-1);
+  opacity: 0.5;
 }
 
 /* Purple button */
 .btn--purple {
   background: var(--gradient-preset-2);
+  opacity: 1;
 }
 
-/* Light Purple button */
-.btn--purple-light {
-  background: var(--gradient-preset-2-light);
+.btn--purple:hover{
+  background: var(--gradient-preset-2);
+  opacity: 0.5;
+}
+
+/* Button link */
+.btn--link {
+  text-decoration: none;
+  color: var(--pink-600);
+  transition: 300ms ease-out;
+  cursor: pointer;
+}
+
+.btn--link:hover {
+  color: var(--pink-300);
 }
